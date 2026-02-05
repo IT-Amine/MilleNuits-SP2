@@ -1,8 +1,10 @@
-ksite_name: Documentation Mille Nuits - SP2
+site_name: Documentation Mille Nuits - SP2
 site_author: Amine
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
   language: fr
   palette: 
     primary: indigo
