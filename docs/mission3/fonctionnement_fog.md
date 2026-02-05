@@ -6,6 +6,7 @@
 Elle permet de capturer l'image d'un disque dur (le Master) pour la redescendre (déployer) sur un grand nombre d'ordinateurs via le réseau.
 
 **Pourquoi FOG pour Mille Nuits ?**
+
 * **Gratuit :** Répond à la contrainte budgétaire.
 * **Interface Web :** Gestion centralisée de tout le parc.
 * **Rapidité :** Utilise le Multicast pour déployer 20 postes en même temps sans saturer le réseau.
