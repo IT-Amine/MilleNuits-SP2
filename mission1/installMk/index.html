@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Amine" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Installation MkDocs - Documentation Mille Nuits - SP2</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Installation MkDocs";
+        var mkdocs_page_input_path = "mission1/installMk.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Documentation Mille Nuits - SP2
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Accueil</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mission 1 - Documentation</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../comparatif/">Comparatif Editeurs</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Installation MkDocs</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#1-prerequis-techniques">1. Prérequis Techniques</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2-installation-de-mkdocs">2. Installation de MkDocs</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#etape-1-installation-du-moteur">Étape 1 : Installation du moteur</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mission 2 - Postes Clients</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="../../mission2/">Masterisation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../mission2/">Procédure Install</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mission 3 - Déploiement</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="../../mission3/">Comparatif Solutions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../mission3/">Solution FOG</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mission 4 - Incidents</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="../../mission4/">Outil GLPI</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../mission4/">Procédures</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Documentation Mille Nuits - SP2</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Mission 1 - Documentation</li>
+      <li class="breadcrumb-item active">Installation MkDocs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="installation-de-lenvironnement-de-documentation">Installation de l'Environnement de Documentation</h1>
+<p>Ce guide détaille la procédure complète pour installer et configurer l'environnement de travail technique du projet <strong>Mille Nuits</strong>.</p>
+<h2 id="1-prerequis-techniques">1. Prérequis Techniques</h2>
+<p>Assurez-vous que les logiciels suivants sont installés sur votre poste de travail :</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Outil</th>
+<th style="text-align: left;">Rôle</th>
+<th style="text-align: left;">Vérification (Terminal)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Python</strong> (v3.x)</td>
+<td style="text-align: left;">Langage nécessaire pour MkDocs</td>
+<td style="text-align: left;"><code>python --version</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>PIP</strong></td>
+<td style="text-align: left;">Gestionnaire de paquets Python</td>
+<td style="text-align: left;"><code>pip --version</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Git</strong></td>
+<td style="text-align: left;">Gestionnaire de versions</td>
+<td style="text-align: left;"><code>git --version</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>VS Code</strong></td>
+<td style="text-align: left;">Éditeur de texte recommandé</td>
+<td style="text-align: left;"><code>Aucune</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="2-installation-de-mkdocs">2. Installation de MkDocs</h2>
+<p>L'installation se réalise via le terminal de Visual Studio Code.</p>
+<h3 id="etape-1-installation-du-moteur">Étape 1 : Installation du moteur</h3>
+<p>Exécutez la commande suivante pour télécharger MkDocs et ses dépendances :</p>
+<pre><code>pip install mkdocs
+</code></pre>
+<p>Étape 2 : Installation du thème (Optionnel)
+Pour obtenir un rendu visuel professionnel (comme le thème ReadTheDocs ou Material), installez le paquet supplémentaire :</p>
+<pre><code>pip install mkdocs-material
+</code></pre>
+<p>Étape 3 : Validation
+Vérifiez que l'installation s'est bien passée :</p>
+<pre><code>mkdocs --version
+</code></pre>
+<h1 id="doit-afficher-mkdocs-version-1xx">Doit afficher : mkdocs, version 1.x.x</h1>
+<ol>
+<li>Création et Configuration du Projet
+Étape 1 : Initialisation
+Placez-vous dans le dossier de votre projet et lancez :</li>
+</ol>
+<pre><code>mkdocs new .    # Cette commande crée le fichier mkdocs.yml (configuration) et le dossier docs/ (contenu).
+</code></pre>
+<p>Étape 2 : Configuration
+Modifiez le fichier mkdocs.yml pour définir le nom du site et la navigation (voir le fichier de configuration fourni dans la documentation principale).</p>
+<ol>
+<li>Utilisation Quotidienne
+Pour rédiger la documentation, nous utilisons un serveur local qui permet de voir le résultat en direct.</li>
+</ol>
+<p>Commande de lancement :</p>
+<pre><code>mkdocs serve    # Accès au site : Ouvrez votre navigateur à l'adresse : http://127.0.0.1:8000
+</code></pre>
+<p>(Note : Le site se met à jour automatiquement à chaque sauvegarde d'un fichier .md).</p>
+<ol>
+<li>Publication en Ligne (GitHub Pages)
+L'hébergement est assuré gratuitement par GitHub Pages.</li>
+</ol>
+<p>Lancez la commande de déploiement automatique :</p>
+<pre><code>1. Préparer les fichiers
+git add .
+
+2. Valider la version
+git commit -m &quot;Mise a jour documentation depuis Obsidian&quot;
+
+3.Connecter à GitHub
+git remote add origin https://github.com/UTILISATEUR/DEPOT.git
+
+4. Envoie de la version
+git push origin master
+
+5. Déployer sur la branche pour crée le site web
+mkdocs gh-deploy
+</code></pre>
+<p>La commande "mkdocs gh-deploy"  va :
+Générer le site statique (HTML/CSS).
+Pousser les fichiers sur la branche gh-pages de votre dépôt.
+Rendre le site accessible publiquement.</p>
+<h3 id="rappel-pour-la-suite">Rappel pour la suite</h3>
+<p>Une fois ce fichier créé, votre structure de dossiers pour la <strong>Mission 1</strong> devrait ressembler à ceci dans VS Code :</p>
+<pre><code>MonProjet/
+├── mkdocs.yml          (La configuration)
+└── docs/
+    ├── index.md        (L'accueil)
+    └── mission1/
+        ├── comparatif.md
+        └── installation.md
+</code></pre>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../comparatif/" class="btn btn-neutral float-left" title="Comparatif Editeurs"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../comparatif/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
