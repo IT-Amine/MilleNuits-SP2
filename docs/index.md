@@ -56,4 +56,5 @@ Cette documentation s'appuie sur l'environnement technique suivant :
 ## Informations Projet
 
 **Date de livraison finale :** 12 Mars 2026
+<br>
 **Équipe :** 2 Étudiants (Amine & Lucka)

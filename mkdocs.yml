@@ -17,8 +17,10 @@ nav:
       - Installation MkDocs: mission1/installMk.md
   - Mission 2 - Postes Clients:
       - Masterisation: mission2/master.md
+      - Explication Sysprep: mission2/sysprep.md
   - Mission 3 - Déploiement:
       - Comparatif Solutions: mission3/comparatif.md
+      - Fonctionnement FOG: mission3/fonctionnement_fog.md
       - Solution FOG: mission3/fog.md
   - Mission 4 - Incidents:
       - Outil GLPI: mission4/glpi.md
