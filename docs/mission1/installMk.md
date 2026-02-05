@@ -14,8 +14,7 @@ Assurez-vous que les logiciels suivants sont installés sur votre poste de trava
 
 ---
 ## 2. Installation de MkDocs
-L'installation se réalise via le terminal de Visual Studio Code.
-
+L'installation se réalise via le terminal.
 ### Étape 1 : Installation du moteur
 Exécutez la commande suivante pour télécharger MkDocs et ses dépendances :
 ```

@@ -3,8 +3,8 @@ site_author: Amine
 
 theme:
   name: material
-  logo: assets/logo.jpeg
-  favicon: assets/logo.jpeg
+  logo: assets/logo.png
+  favicon: assets/logo.png
   language: fr
   palette: 
     primary: indigo
@@ -17,7 +17,6 @@ nav:
       - Installation MkDocs: mission1/installMk.md
   - Mission 2 - Postes Clients:
       - Masterisation: mission2/master.md
-      - Procédure Install: mission2/procedure.md
   - Mission 3 - Déploiement:
       - Comparatif Solutions: mission3/comparatif.md
       - Solution FOG: mission3/fog.md
