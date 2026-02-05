@@ -175,13 +175,25 @@ Pour rédiger la documentation, nous utilisons un serveur local qui permet de vo
 <p>(Note : Le site se met à jour automatiquement à chaque sauvegarde d'un fichier .md).</p>
 <ol>
 <li>Publication en Ligne (GitHub Pages)
-L'hébergement est assuré gratuitement par GitHub Pages.
-Assurez-vous que votre projet est lié à un dépôt GitHub (git remote -v).
-Lancez la commande de déploiement automatique :</li>
+L'hébergement est assuré gratuitement par GitHub Pages.</li>
 </ol>
-<pre><code>mkdocs gh-deploy
+<p>Lancez la commande de déploiement automatique :</p>
+<pre><code>1. Préparer les fichiers
+git add .
+
+2. Valider la version
+git commit -m &quot;Mise a jour documentation depuis Obsidian&quot;
+
+3.Connecter à GitHub
+git remote add origin https://github.com/UTILISATEUR/DEPOT.git
+
+4. Envoie de la version
+git push origin master
+
+5. Déployer sur la branche pour crée le site web
+mkdocs gh-deploy
 </code></pre>
-<p>Cette commande va :
+<p>La commande "mkdocs gh-deploy"  va :
 Générer le site statique (HTML/CSS).
 Pousser les fichiers sur la branche gh-pages de votre dépôt.
 Rendre le site accessible publiquement.</p>
