@@ -55,13 +55,26 @@ mkdocs serve    # Accès au site : Ouvrez votre navigateur à l'adresse : http:/
 
 5. Publication en Ligne (GitHub Pages)
 L'hébergement est assuré gratuitement par GitHub Pages.
-Assurez-vous que votre projet est lié à un dépôt GitHub (git remote -v).
+
 Lancez la commande de déploiement automatique :
 ```
+1. Préparer les fichiers
+git add .
+
+2. Valider la version
+git commit -m "Mise a jour documentation depuis Obsidian"
+
+3.Connecter à GitHub
+git remote add origin https://github.com/UTILISATEUR/DEPOT.git
+
+4. Envoie de la version
+git push origin master
+
+5. Déployer sur la branche pour crée le site web
 mkdocs gh-deploy
 ```
 
-Cette commande va :
+La commande "mkdocs gh-deploy"  va :
 Générer le site statique (HTML/CSS).
 Pousser les fichiers sur la branche gh-pages de votre dépôt.
 Rendre le site accessible publiquement.
