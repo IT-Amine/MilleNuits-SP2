@@ -1,7 +1,8 @@
 site_name: Documentation Mille Nuits - SP2
 site_author: Amine
 
-theme: readthedocs
+theme:
+	name:  readthedocs
 
 nav:
   - Accueil: index.md
