@@ -1,0 +1,19 @@
+site_name: Documentation Mille Nuits - SP2
+site_author: Amine
+
+theme: readthedocs
+
+nav:
+  - Accueil: index.md
+  - Mission 1 - Documentation:
+      - Comparatif Editeurs: mission1/comparatif.md
+      - Installation MkDocs: mission1/installMk.md
+  - Mission 2 - Postes Clients:
+      - Masterisation: mission2/
+      - Procédure Install: mission2/
+  - Mission 3 - Déploiement:
+      - Comparatif Solutions: mission3/
+      - Solution FOG: mission3/
+  - Mission 4 - Incidents:
+      - Outil GLPI: mission4/
+      - Procédures: mission4/
